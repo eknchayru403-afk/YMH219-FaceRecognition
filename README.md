@@ -19,6 +19,12 @@ Bu proje, C# Windows Forms (.NET 10.0) ve **OpenCvSharp4** kütüphanesi kullan�
 
 Bu uygulama yalnızca **YMH 219** dersi kapsamında yerel ve gönüllü örnekler üzerinde eğitim amaçlı geliştirilmiştir; kamuya açık alanlarda izinsiz kimlik takibi veya gözetim amacıyla kullanılmamaktadır.
 
+## Bilinen Sınırlamalar ve Geliştirme Notları
+
+* Haar Cascade algoritması ve histogram korelasyonu tabanlı tanıma yöntemi; ortam ışığındaki ani değişimlerden ve aşırı yan profil açılarından etkilenebilir.
+* Uygulama yalnızca ders kapsamında yerel ve gönüllü örnekler üzerinde çalışacak şekilde tasarlanmıştır.
+* İlerleyen sürümlerde derin öğrenme tabanlı yüz gömme (face embedding) modelleri entegre edilerek tanıma doğruluğu artırılabilir.
+
 ## Kurulum ve Çalıştırma
 
 1. Depoyu bilgisayarınıza klonlayın:
